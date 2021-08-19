@@ -10,12 +10,16 @@
 
 body{
     height: 100vh;
+
     background: linear-gradient(
         135deg,
         rgb(196, 243, 150),
       #dff1d0;
+
+    
+
         
-    );
+   
 }
 .container{
     width: 40%;
