@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <div class="app">
+    
+      <h1 style="color: rgb(72, 255, 0);">Reminder</h1>
+      <p>Content</p>
+      <input type="text" id="content" />
+      <p>Date</p> <input type="text" placeholder="dd-mm-yyyy" id="date" /></p>
+      <p>Time</p>
+      <input type="text" placeholder="-- : --" id="time" />
+      <button class="add" id="addedBtn">Add</button>
+      <button class="remove" id="deletedBtn">Delete Last</button>
+      <div class="list" id="list">
+        <div class="item">
+          <div>
+            <p>Content：</p>
+            <p>Date-Time：</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
