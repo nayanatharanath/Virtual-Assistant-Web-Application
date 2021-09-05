@@ -1,0 +1,83 @@
+body{
+    height: 100vh;
+    text-align: center;
+    background: linear-gradient(
+        135deg,
+        rgb(173, 179, 172),#d1d3d4
+    );
+  }
+  
+  .app {
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    width: 40%;
+    min-width: 450px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 60%;
+    left: 50%;
+    padding: 40px 40px;
+  }
+
+  #tasks{
+    position: relative;
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+  }
+  
+  #tasks input {
+    width: 70%;
+    height: 55px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+  }
+
+  #tasks input:focus{
+    outline: none;
+    border-color: #66ff66;
+}
+  
+  .add {
+    margin-top: 20px;
+    background-color:chartreuse;
+    color: #fff;
+    border: 0;
+    
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .list {
+    padding-top: 20px;
+  }
+  
+  .item {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .remove {
+    background-color: rgba(255, 38, 0, 0.788);
+    margin-top: 20px;
+    color: #fff;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+  }
+  
